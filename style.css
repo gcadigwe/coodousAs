@@ -9,7 +9,7 @@ body {
 .container {
   /* box-sizing: border-box; */
   border: 1px solid #e8e8e8;
-  height: 700px;
+  height: 600px;
   width: 800px;
   background-color: #e8e8e8;
 }
@@ -55,7 +55,8 @@ img {
 .credit-card-details-container {
   position: relative;
   border: 1px solid gray;
-  height: 550px;
+  border-radius: 2px;
+  height: 460px;
   width: 730px;
   margin-left: 50px;
 }
@@ -107,7 +108,7 @@ img {
 .fields-1-2 > input {
   margin-left: 10px;
   font-size: 15px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   margin-top: -25px;
   width: 200px;
 }
@@ -143,7 +144,7 @@ img {
 .fields-2-2 > input {
   margin-left: 10px;
   font-size: 15px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   margin-top: -25px;
   width: 300px;
 }
@@ -151,7 +152,7 @@ img {
 .fields-2-1 > input {
   margin-left: 10px;
   font-size: 15px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   margin-top: -25px;
   width: 300px;
 }
@@ -183,7 +184,7 @@ img {
 .address-input > input {
   margin-left: 10px;
   font-size: 15px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   margin-bottom: 2px;
   width: 300px;
 }
@@ -191,7 +192,7 @@ img {
 .fields-4 > input {
   margin-left: 10px;
   font-size: 15px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   margin-top: -25px;
   width: 300px;
 }
@@ -227,6 +228,7 @@ img {
 .zip-code-input {
   display: flex;
   margin-top: -15px;
+  padding-bottom: 5px;
 }
 
 .zip-code-input-1 > input {
@@ -235,14 +237,14 @@ img {
   margin-right: 5px;
 
   font-size: 15px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
 }
 
 .zip-code-input-2 > input {
   width: 30px;
   margin-left: 5px;
   font-size: 15px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
 }
 
 .left-input-1 > select {
@@ -293,7 +295,7 @@ img {
 .right-input-1 > input {
   margin-left: 5px;
   font-size: 15px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   margin-top: -25px;
   width: 300px;
 }
@@ -308,7 +310,7 @@ img {
 .right-input-2 > input {
   margin-left: 5px;
   font-size: 15px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   margin-top: -25px;
   width: 75px;
 }
@@ -330,4 +332,24 @@ img {
   border-radius: 5px;
   margin-top: -25px;
   width: 450px;
+}
+
+.address-types {
+  display: flex;
+  align-items: center;
+}
+
+.address-types > small {
+  margin-right: 10px;
+}
+
+.address-type-input > p {
+  margin-bottom: -3px;
+  margin-left: 1px;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.address-type-input {
+  margin-left: 10px;
 }
